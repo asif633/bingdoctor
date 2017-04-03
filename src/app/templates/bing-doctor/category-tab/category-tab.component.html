@@ -1,0 +1,61 @@
+<div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-top">
+  <div>
+    <div uk-grid>
+      <div class="uk-width-auto@m">
+        <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-slide-right-medium">
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Dentists</a></li>
+          <li><a href="#">Alternative Medicine Doctors (AYUSH)</a></li>
+          <li><a href="#">Diagnostic Labs</a></li>
+        </ul>
+      </div>
+      <div class="uk-width-expand@m">
+        <ul id="component-tab-left" class="uk-switcher">
+          <li>
+            <div class="uk-column-1-2 uk-column-divider">
+              <ul class="uk-list uk-list-large" *ngFor="let i of [1,2,3,4,5,6,7,8]">
+                <li>
+                  Item{{i}}
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+
+            <div class="uk-column-1-2 uk-column-divider">
+              <ul class="uk-list uk-list-large" *ngFor="let i of [1,2,3,4,5,6,7,8]">
+                <li>
+                  Item{{i}}
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+
+            <div class="uk-column-1-2 uk-column-divider">
+              <ul class="uk-list uk-list-large" *ngFor="let i of [1,2,3,4,5,6,7,8]">
+                <li>
+                  Item{{i}}
+                </li>
+              </ul>
+            </div>
+
+          </li>
+
+          <li>
+
+            <div class="uk-column-1-2 uk-column-divider">
+              <ul class="uk-list uk-list-large" *ngFor="let i of [1,2,3,4,5,6,7,8]">
+                <li>
+                  Item{{i}}
+                </li>
+              </ul>
+            </div>
+
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>

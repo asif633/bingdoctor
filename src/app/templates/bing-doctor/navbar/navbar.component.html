@@ -1,0 +1,21 @@
+<nav class="uk-navbar-container" uk-navbar>
+  <a class="uk-navbar-item uk-logo" [routerLink]="['/templates/bingdoctor']">Logo</a>
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <li><a [routerLink]="['listing']">Listing Page</a></li>
+            <li>
+                <a href="#">Parent</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a [routerLink]="['doctorDetail']">Doctor Detail</a></li>
+        </ul>
+
+    </div>
+</nav>

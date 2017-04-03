@@ -1,0 +1,30 @@
+{
+  "name": "covalent-quickstart",
+  "description": "Quickstart App with @covalent packages",
+  "main": "",
+  "authors": [
+    "Kyle Ledbetter <kyle.ledbetter@teradata.com>",
+    "Richa Vyas <richa.vyas@teradata.com>",
+    "Ed Morales <eduardo.morales@teradata.com>",
+    "Jason Weaver <jason.weaver@teradata.com>",
+    "Jeremy Smartt <jeremy.smartt@teradata.com>",
+    "Ilsun Park <ilsun.park@teradata.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "components",
+    "reusable"
+  ],
+  "homepage": "https://github.com/Teradata/covalent-quickstart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "^2.27.2"
+  }
+}
